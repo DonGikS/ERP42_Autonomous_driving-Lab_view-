@@ -1,7 +1,7 @@
 # ERP42_Autonomouse_driving-Lab_view-
 [![outdoor](https://img.youtube.com/vi/eRkZ373Lplc/0.jpg)](https://youtu.be/eRkZ373Lplc)
 [Youtube Link(Click)]
-# Indoor_Robot_Project
+# Outdoor_Robot_Project
 
 >## 프로젝트 목차
 
@@ -15,7 +15,7 @@
 
 > ## 1. 프로젝트 목적
 
-로봇에 카메라를 부착하고 A에서 B지점으로 찍는 실내 네비게이션 로봇을 만들어라. </br>AR마커를 이용한 도킹스테이션을 기점으로 도착지점을 찍고 다시 돌아오게 설계해야한다.
+자율주행 플랫폼인 ERP42를 활용한 실외자율주행 테스트. 밸로다인의 LiDAR와 ublox의 GPS를 사용해서 물체인식과 위치추적을 한다.
 
 > ## 2. 프로젝트 계획표
 교육 기간 : 매일 09:00 ~ 18:00
@@ -44,14 +44,13 @@
 
 
 > ## 3.사용된 장비
-+ 터틀봇3(Turtlebot3)</br>
-![turtlebot3](https://user-images.githubusercontent.com/29765871/94400928-d3867200-01a4-11eb-8527-f40bc9f931c0.jpg)</br>
-+ raspberry pi camera</br>
-![raspicamera](https://user-images.githubusercontent.com/29765871/94400925-d3867200-01a4-11eb-8a44-bfaabb81b42a.jpg)</br>
-+ Linux PC(OS : ubuntu 18.04)</br>
-![ubuntu](https://user-images.githubusercontent.com/29765871/94400930-d41f0880-01a4-11eb-80d4-02589925b234.png)</br>
-+ ROS 1(melodic)</br>
-![melodic](https://user-images.githubusercontent.com/29765871/94400921-d2eddb80-01a4-11eb-98b5-83e3f3dd4acb.jpeg)</br>
++ ERP42(자율주행 플랫폼 + 산업용PC 연결)</br>
+![ERP42](https://user-images.githubusercontent.com/29765871/102717186-05325380-4324-11eb-8609-9a978e561779.png))</br>
++ Velodyne LiDAR</br>
+![밸로다인](https://user-images.githubusercontent.com/29765871/102717184-02376300-4324-11eb-8185-608093b20e80.png))</br>
++ ublox GPS</br>
+![C030-U201-Image_06102017-2 png 250x250_q85](https://user-images.githubusercontent.com/29765871/102717197-2135f500-4324-11eb-992a-78325a14893c.png)</br>
+
 
 > ## 4.설치(installing)
 + remote PC</br>
