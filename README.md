@@ -18,71 +18,30 @@
 로봇에 카메라를 부착하고 A에서 B지점으로 찍는 실내 네비게이션 로봇을 만들어라. </br>AR마커를 이용한 도킹스테이션을 기점으로 도착지점을 찍고 다시 돌아오게 설계해야한다.
 
 > ## 2. 프로젝트 계획표
+교육 기간 : 매일 09:00 ~ 18:00
 
-<table border="1">
-	<th>주차</th>
-	<th>기간</th>
-    <th>실습</br>시간</th>
-    <th>실습주제</th>
-    <th>필요장비</th>
-    <th>담당</th>
-	<tr>
-	    <td>1주</td>
-	    <td>8/3~7</td>
-        <td>40</td>
-        <td>Introduction to ROS</td>
-        <td>Linux PC </br> ROS robot programming (책</br> 저자 표윤석)</td>
-        <td>권지욱</td>
-	</tr>
-	<tr>
-	    <td>2주</td>
-	    <td>8/10~14</td>
-        <td>40</td>
-        <td>Introduction to Robotics</td>
-        <td>Linux PC </td>
-        <td>권지욱</td>
-	</tr>
-    <tr>
-	    <td>3주</td>
-	    <td>8/17~21</td>
-        <td>40</td>
-        <td>ROS navi-stack AtoB</br> 장애물 지도 생성 및</br> 장애물 감지</td>
-        <td>Linux PC</td>
-        <td>권지욱</td>
-	</tr>
-    <tr>
-	    <td>4주</td>
-	    <td>8/24~28</td>
-        <td>40</td>
-        <td>SLAM & Localization</br>ROS navi-stack +</br> google(카토그래퍼)</br>(Localiztion)</td>
-        <td>Linux PC </br>Robot</td>
-        <td>권지욱</td>
-	</tr>
-    <tr>
-	    <td>5주</td>
-	    <td>8/31~9/4</td>
-        <td>40</td>
-        <td>Path planner (global &</br>local)</br>ROS navi-stack +</br> google(카토그래퍼)</br>(Localiztion) +</br>(A*/DWA/TEB/(Timed</br> Elastic Band)</td>
-        <td>Linux PC</br>Robot</br>2D LiDAR</td>
-        <td>도구공간</td>
-	</tr>
-    <tr>
-	    <td>6주</td>
-	    <td>9/7~11</td>
-        <td>40</td>
-        <td>Docking control</br>(April marker detection)</br>(Visual servo control)</td>
-        <td>Linux PC</br>Robot</br>2D LiDAR</br>rgb camera</td>
-        <td>도구공간</td>
-	</tr>
-    <tr>
-	    <td>7주</td>
-	    <td>9/14~18</td>
-        <td>40</td>
-        <td>A to B mission</br>(behavior control)</br>(docking station에서</br>출발 후 목적지 도달 이후</br> 다시 출발 도킹 스테이션에</br>도킹)</td>
-        <td>Linux PC</br>Robot</br>2D LiDAR</br>rgb camera</td>
-        <td>도구공간</td>
-	</tr>
-</table>
+교육 장소 : 언맨드솔루션 
+
+
+
+|                            **월**                            |                        **화**                         |                          **수**                          |                          **목**                          |                       **금**                       |
+| :----------------------------------------------------------: | :---------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------: |
+|                          09월 28일                           |                       09월 29일                       |                        09월 30일                         |                        10월 01일                         |                     10월 02일                      |
+| Kick Off  자율주행 차량 개발 현황  센서 기술 동향 랩뷰 설치  |                   대표님 강연  자습                   |                           추석                           |                                                          |                                                    |
+|                          10월 05일                           |                       10월 06일                       |                        10월 07일                         |                        10월 08일                         |                     10월 09일                      |
+| Linux / Shell Script  Linux 명령어 쉘 스크립트 실습 ROS 용어 설명 |   Sensor Application  Velodyne Logitech WebCam GPS    | ERP42 Platform   Ackermann 구조 ERP42 ROS NODE 작성 실습 | ERP42 Platform  시리얼 통신 엔코더 기반 오도메트리 실습  |                       한글날                       |
+|                          10월 12일                           |                       10월 13일                       |                        10월 14일                         |                        10월 15일                         |                     10월 16일                      |
+|          발표  개인별 발표   ROS 기반 ERP 동작 실습          |          Labview Basic1  기본 기능 설명 실습          |           Labview Basic2  프로그래밍 기초 실습           | Labview Basic3  H/W 인터페이스 파일 생성 및 입/출력 실습 |  GPS Basic1  GPS 기초이론 ublox-f9p Parser  실습   |
+|                          10월 19일                           |                       10월 20일                       |                        10월 21일                         |                        10월 22일                         |                     10월 23일                      |
+|  발표  오전 학생발표준비 오후 개인별 발표 및 검토 이후 실습  |      GPS Basic2  좌표계 변환 RTK 이론 설명 실습       |       GPS Application1  Data Logging Plotting 실습       |       GPS Application2  RDDF 파일 보간법 설명 실습       | GPS Application3  Waypoint 생성 Path Planning 실습 |
+|                          10월 26일                           |                       10월 27일                       |                        10월 28일                         |                        10월 29일                         |                     10월 30일                      |
+|  발표  오전 학생발표준비 오후 개인별 발표 및 검토 이후 실습  |           LiDAR Basic  LiDAR 센서 이론 실습           |      LiDAR Application1  Point Cloud 좌표변환 실습       |   LiDAR Application2  객체 인식 장애물 회피 경로 실습    |  Waypoint Driving  조향각 생성 Waypoint 주행 실습  |
+|                          11월 02일                           |                       11월 03일                       |                        11월 04일                         |                        11월 05일                         |                     11월 06일                      |
+|  발표  오전 학생발표준비 오후 개인별 발표 및 검토 이후 실습  |   Camera Application1  영상처리 기초 차선인식 실습    | Camera Application2  Hough Transform Bird Eye View 실습  |         Camera Application3  Bird Eye View 실습          |      Tensorflow Basic1  Tensorflow 활용 실습       |
+|                          11월 09일                           |                       11월 10일                       |                        11월 11일                         |                        11월 12일                         |                     11월 13일                      |
+|           Tensorflow Basic2  Tensorflow 활용 실습            | Mission 1  자율주행 기능 통합 알고리즘 구현 확인 실습 |  Mission 2  자율주행 기능 통합 알고리즘 구현 확인 실습   |                      최종 발표 준비                      |                   최종 발표 준비                   |
+|                  **결과 보고회(11월 16일)**                  |                                                       |                                                          |                                                          |                                                    |
+
 
 > ## 3.사용된 장비
 + 터틀봇3(Turtlebot3)</br>
