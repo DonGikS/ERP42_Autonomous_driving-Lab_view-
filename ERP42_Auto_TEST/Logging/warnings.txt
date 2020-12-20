@@ -1,0 +1,3 @@
+C:\Users\Mondicht Shin\Desktop\lidar_new\201028_lidar_subVI사용.vi (201028_lidar_subVI사용.vi)
+    - The VI expected to be at "C:\Users\Mondicht Shin\Desktop\SubVI\sub_LidarTrimPlot.vi" was loaded from "C:\Users\Mondicht Shin\Desktop\lidar (1)\sub_LidarTrimPlot.vi".
+    - The VI expected to be at "C:\Users\Mondicht Shin\Desktop\SubVI\sub_LidarCluster.vi" was loaded from "C:\Users\Mondicht Shin\Desktop\lidar (1)\sub_LidarCluster.vi".
