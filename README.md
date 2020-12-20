@@ -53,6 +53,10 @@
 
 
 > ## 4.설치(installing)
+![image48](https://user-images.githubusercontent.com/29765871/102717465-d87f3b80-4325-11eb-8f15-be7685ca75b2.gif)
+![image49](https://user-images.githubusercontent.com/29765871/102717468-da48ff00-4325-11eb-8db3-82130cf65f8c.gif)</br>
+
+
 + remote PC</br>
     + ROS 1 설치[Link](http://wiki.ros.org/melodic/Installation/Ubuntu)를 통해 설치한다.
 
